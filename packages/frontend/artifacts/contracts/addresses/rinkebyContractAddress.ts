@@ -1,0 +1,1 @@
+export const GreeterContractAddress = '0x09c67C4E512B96B026bf06bccb962589A7f59097'

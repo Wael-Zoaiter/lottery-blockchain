@@ -1,0 +1,22 @@
+{
+  "name": "lottery-blockchain",
+  "author": "@nezz0746",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace lottery-blockchain-frontend-project dev",
+    "build": "yarn workspace lottery-blockchain-frontend-project build",
+    "start": "yarn workspace lottery-blockchain-frontend-project start",
+    "ipfs": "yarn workspace lottery-blockchain-frontend-project ipfs",
+    "chain": "yarn workspace lottery-blockchain-hardhat-project chain",
+    "deploy": "yarn workspace lottery-blockchain-hardhat-project deploy",
+    "compile": "yarn workspace lottery-blockchain-hardhat-project compile",
+    "clean": "yarn workspace lottery-blockchain-hardhat-project clean"
+  },
+  "workspaces": {
+    "packages": [
+      "./packages/*"
+    ]
+  }
+}
